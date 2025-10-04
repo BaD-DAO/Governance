@@ -1,119 +1,119 @@
-# BuildaDAO | The Caravan — Discord Structure (v7)
+# BuildaDAO | The Caravan — Discord Structure (v9)
 _Tagline: “From the BaDlands.”_  
-_Objective: Streamline BuildaDAO’s Discord using clear working group names and a unified RaceTrack forum._
+_Objective: Finalized BuildaDAO Discord layout with Admin converted to a private forum, keeping all coordination documented and tag-based._
 
 ---
 
 ## 🌍 CORE CHANNELS
-**Purpose:** Entry point for community access, onboarding, and announcements.
+**Purpose:** Entry point for community onboarding, announcements, and conversation.
 
 **Text Channels:**
-- #welcome — onboarding guide, server overview, and DAO links  
-- #announcements — official DAO news and updates  
-- #links — BuildaDAO website, socials, and resource links  
+- #welcome — onboarding guide and DAO overview  
+- #announcements — official DAO updates and news  
+- #links — website, socials, Notion, and GitHub  
 - #general — open discussion and community chat  
-- #share-your-work — community shilling and project sharing  
+- #share-your-work — share projects, art, and initiatives  
 
 🗣️ **Voice Channels:**
 - public-voice  
 - team-voice (restricted)
 
 ---
+
 ## ⚙️ OPERATIONS
 **Forum:** `operations`  
-**Purpose:** Treasury management, admin coordination, and DAO logistics.
+**Purpose:** Treasury, admin, and DAO coordination.
 
 **Tags:**  
 `[New Issue]` `[Discussion]` `[Ongoing]` `[On Hold]` `[Priority]` `[Documentation]`  
 _Sub-tags:_ `[Treasury]` `[Finance]` `[Admin]` `[DevOps]`
 
 **Usage:**  
-- Treasury tracking, payouts, and budgeting  
-- DAO infrastructure, permissions, and tooling  
-- Weekly coordination and cross-WG updates  
-- Internal documentation and reports  
+- Treasury reports, budgeting, and payouts  
+- Admin coordination and logistics  
+- Internal SOPs and workflow tracking  
+- Infrastructure, permissions, and tooling  
+
 ---
-## ⚙️ GOVERNANCE
+
+## 🗳️ GOVERNANCE
 **Forum:** `governance`  
-**Purpose:** Proposals, votes, and DAO-wide decision-making.
+**Purpose:** Proposals, votes, and policy discussions.
 
 **Tags:**  
 `[New Issue]` `[Discussion]` `[Ongoing]` `[On Hold]` `[Priority]` `[Documentation]`  
 _Sub-tags:_ `[Proposal]` `[Vote]` `[Policy]` `[Update]` `[Collaboration]`
 
 **Usage:**  
-- Submit and refine governance proposals  
-- Discuss policy updates and voting results  
-- Post working group reports and summaries  
-- Track consensus outcomes and DAO actions  
+- Submit and review governance proposals  
+- Organize voting cycles  
+- Share updates, results, and DAO policies  
 
 ---
 
 ## 📣 MARKETING
 **Forum:** `marketing`  
-**Purpose:** Campaigns, storytelling, branding, events, and outreach.
+**Purpose:** Branding, storytelling, campaigns, and partnerships.
 
 **Tags:**  
 `[New Issue]` `[Discussion]` `[Ongoing]` `[On Hold]` `[Priority]` `[Documentation]`  
 _Sub-tags:_ `[Content]` `[Campaign]` `[Design]` `[Event]` `[Partner]` `[Archive]`
 
 **Usage:**  
-- Create and manage marketing campaigns  
-- Coordinate social media and PR content  
-- Design branding materials and event promotions  
-- Manage partnerships and sponsorships  
+- Manage marketing campaigns and design requests  
+- Coordinate cross-platform content and media  
+- Partner outreach, event promotion, and campaign archives  
 
 ---
 
 ## 💻 DEVELOPMENT
 **Forum:** `development`  
-**Purpose:** Smart contracts, products, and technical infrastructure.
+**Purpose:** Smart contracts, product builds, and technical infrastructure.
 
 **Tags:**  
 `[New Issue]` `[Discussion]` `[Ongoing]` `[On Hold]` `[Priority]` `[Documentation]`  
 _Sub-tags:_ `[Build]` `[Test]` `[Bug]` `[Audit]` `[Integration]`
 
 **Usage:**  
-- Develop and test BuildaDAO products and dApps  
-- Track bugs, audits, and integration efforts  
-- Manage repositories and deployment pipelines  
+- Coordinate code and infrastructure work  
+- Manage bugs, QA, and audits  
+- Oversee integrations and deployments  
 
 ---
 
 ## 🎓 EDUCATION
 **Forum:** `education`  
-**Purpose:** DAO onboarding, training, and mentorship.
+**Purpose:** DAO learning, mentorship, and skill-building.
 
 **Tags:**  
 `[New Issue]` `[Discussion]` `[Ongoing]` `[On Hold]` `[Documentation]`  
 _Sub-tags:_ `[Curriculum]` `[Mentor]` `[Trial]` `[Graduate]`
 
 **Usage:**  
-- Develop educational content and courses  
-- Run mentorship programs and bootcamps  
-- Share resources and onboarding materials  
+- Run learning programs and mentorships  
+- Develop resources and DAO onboarding materials  
+- Highlight graduations and capstones  
 
 ---
 
 ## 💼 BIZDEV
 **Forum:** `bizdev`  
-**Purpose:** Partnerships, growth, collaborations, and sponsorships.
+**Purpose:** Partnerships, collaborations, and funding opportunities.
 
 **Tags:**  
 `[New Issue]` `[Discussion]` `[Ongoing]` `[On Hold]` `[Priority]` `[Documentation]`  
 _Sub-tags:_ `[Partner]` `[Outreach]` `[Sponsorship]` `[Collaboration]` `[Growth]`
 
 **Usage:**  
-- Manage external partnerships and business collaborations  
-- Develop funding or sponsorship opportunities  
-- Oversee growth and ecosystem relationships  
-- Track BD pipelines and partnership outcomes  
+- Manage sponsorships, collaborations, and grants  
+- Develop funding partnerships  
+- Track growth and partnership outcomes  
 
 ---
 
 ## 🏁 RACETRACK
 **Forum:** `racetrack`  
-**Purpose:** Central hub for all ongoing and completed DAO projects.
+**Purpose:** Central hub for all ongoing and archived projects.
 
 **Tags:**  
 `[New Issue]` `[Ongoing]` `[On Hold]` `[Priority]` `[Documentation]`  
@@ -122,61 +122,66 @@ _Sub-tags:_ `[Map]` `[Pulse]` `[Funding]` `[Marketing]` `[Complete]` `[Archived]
 **Usage:**  
 Each project = one thread.  
 > **Format:** “Project Name — Run to [Goal]”  
-> Include objectives, milestones, updates, and outcomes.  
-> Retag `[Archived]` when complete and `[Retro]` for post-mortems.
+> Include milestones, updates, and final results.  
+> Retag as `[Archived]` or `[Retro]` when completed.  
 
 ---
 
 ## 🧗 PROVING GROUND
 **Forum:** `proving-ground`  
-**Purpose:** Skill trials, hackathons, and practical learning.
+**Purpose:** Challenges, workshops, and applied learning.
 
 **Tags:**  
 `[New Issue]` `[Discussion]` `[Ongoing]` `[On Hold]` `[Documentation]`  
 _Sub-tags:_ `[Trial]` `[Challenge]` `[Workshop]` `[Graduate]`
 
 **Usage:**  
-- Host challenges and workshops  
-- Facilitate learning-by-doing programs  
-- Track progress and project-based outcomes  
+- Run creative, educational, or technical challenges  
+- Facilitate workshops and hackathons  
+- Showcase participant outcomes  
 
 ---
 
-## 🧱 ADMIN (Internal)
-**Private Channels (Core Team Only):**
-- #bot-logs  
-- #permissions  
-- #system-updates  
-- #alerts  
-- #templates  
+## 🔐 ADMIN
+**Forum:** `admin` *(Private: Core Team Only)*  
+**Purpose:** Internal system management, automation, and alerts.
+
+**Tags:**  
+`[System]` `[Permissions]` `[Automation]` `[Alert]` `[Template]` `[Update]` `[Documentation]`
+
+**Usage:**  
+- Log and document bot or system events  
+- Manage permissions, roles, and access changes  
+- Track automation updates or errors  
+- Store internal templates, SOPs, and alerts  
 
 ---
 
 ## 🏷️ TAG SUMMARY
 | Forum | Sub-Tags | Purpose |
 |--------|-----------|----------|
-| Governance | Proposal / Vote / Policy / Collaboration | DAO decisions & governance |
-| Marketing | Content / Campaign / Design / Partner / Event / Archive | Media & outreach |
-| Development | Build / Test / Bug / Audit / Integration | Tech & product |
-| Education | Curriculum / Mentor / Trial / Graduate | Learning & mentorship |
-| BizDev | Partner / Outreach / Sponsorship / Growth | Business development |
-| RaceTrack | Map / Pulse / Funding / Marketing / Archived / Retro | Project tracking |
-| Proving Ground | Trial / Challenge / Workshop / Graduate | Applied learning & challenges |
+| Operations | Treasury / Finance / Admin / DevOps | DAO coordination & treasury |
+| Governance | Proposal / Vote / Policy / Collaboration | DAO decisions |
+| Marketing | Content / Campaign / Partner / Event / Archive | Branding & outreach |
+| Development | Build / Test / Bug / Audit / Integration | Product & tech |
+| Education | Curriculum / Mentor / Trial / Graduate | Learning & onboarding |
+| BizDev | Partner / Outreach / Sponsorship / Growth | Partnerships & funding |
+| RaceTrack | Map / Pulse / Funding / Archived / Retro | Project tracking |
+| Proving Ground | Trial / Challenge / Workshop / Graduate | Hands-on learning |
+| Admin | System / Permissions / Automation / Alert / Template | Internal operations & logs |
 
 ---
 
 ## ✅ Benefits
-- Clean, DAO-native names with intuitive functions.  
-- Fewer text channels — all key work happens in forums.  
-- Unified RaceTrack for project lifecycle tracking.  
-- Optimized for GitHub and tag automation parity with NDAfrica.  
-- Easy onboarding and improved community navigation.
+- Admin converted to a forum with full documentation and tracking.  
+- Every function of the DAO now tag-based for automation clarity.  
+- Transparent but permission-gated structure for leadership.  
+- 5 text channels + 9 working forums — a balanced, scalable DAO layout.  
 
 ---
 
 ## 📌 Next Steps
-1. Rename and convert all WGs to forums using new names.  
-2. Merge redundant design/echo content into `marketing`.  
-3. Convert old project/archival spaces into `racetrack`.  
-4. Post new tag instructions in each forum header.  
-5. Announce the transition in `#announcements`.
+1. Convert `#admin` category into private `admin` forum.  
+2. Add tag presets for `[System]`, `[Automation]`, and `[Permissions]`.  
+3. Create pinned templates for incident reports & bot logs.  
+4. Announce structure update internally before rollout.
