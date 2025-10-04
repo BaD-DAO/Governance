@@ -19,7 +19,20 @@ _Objective: Streamline BuildaDAO’s Discord using clear working group names and
 - team-voice (restricted)
 
 ---
+## ⚙️ OPERATIONS
+**Forum:** `operations`  
+**Purpose:** Treasury management, admin coordination, and DAO logistics.
 
+**Tags:**  
+`[New Issue]` `[Discussion]` `[Ongoing]` `[On Hold]` `[Priority]` `[Documentation]`  
+_Sub-tags:_ `[Treasury]` `[Finance]` `[Admin]` `[DevOps]`
+
+**Usage:**  
+- Treasury tracking, payouts, and budgeting  
+- DAO infrastructure, permissions, and tooling  
+- Weekly coordination and cross-WG updates  
+- Internal documentation and reports  
+---
 ## ⚙️ GOVERNANCE
 **Forum:** `governance`  
 **Purpose:** Proposals, votes, and DAO-wide decision-making.
