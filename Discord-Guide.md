@@ -1,6 +1,6 @@
-# BuildaDAO | The Caravan — Discord Operations Manual (v12)
+# BuildaDAO | The Caravan — Discord Operations Manual (v13)
 _Tagline: “From the BaDlands.”_  
-_Objective: Provide a complete operational guide for BuildaDAO’s Discord forums, including detailed tag definitions, usage guides, and workflows for every working group._
+_Edition: Hub & Spoke Project System_
 
 ---
 
@@ -22,29 +22,25 @@ _Objective: Provide a complete operational guide for BuildaDAO’s Discord forum
 
 ## ⚙️ OPERATIONS
 **Forum:** `operations`  
-**Purpose:** Treasury management, admin coordination, and DAO logistics.
+**Purpose:** Treasury execution, administrative coordination, and DAO logistics.
 
 **Tags:**  
-`[New Issue]` `[Discussion]` `[Ongoing]` `[On Hold]` `[Priority]` `[Documentation]`  
-_Sub-tags:_ `[Treasury]` `[Finance]` `[Admin]` `[DevOps]` `[Governance]`
+`[New Issue]` `[Discussion]` `[Ongoing]` `[On Hold]` `[Priority]` `[Documentation]` `[Project-Link]`
 
-**Tag Definitions:**  
-- **[Treasury]** — Executing and recording fund movements.  
-- **[Finance]** — Budgeting, reporting, and forecasting.  
-- **[Admin]** — Access, permissions, or workflow coordination.  
-- **[DevOps]** — Infrastructure, bots, and automations.  
-- **[Governance]** — Implementing approved proposals or DAO decisions.
+**Usage Guide:**  
+- **[New Issue]** — Opens a new operations task or request.  
+- **[Discussion]** — Used for open coordination or planning.  
+- **[Ongoing]** — Marks work currently being executed.  
+- **[On Hold]** — Used when progress is paused or awaiting input.  
+- **[Priority]** — Flags time-sensitive or critical items.  
+- **[Documentation]** — Closes the loop once task is completed and logged.  
+- **[Project-Link]** — Connects operations tasks to an active RaceTrack project using hashtag reference (e.g., `#Baobab`).
 
 **Example Workflow:**  
 1. A proposal passes in Governance.  
-2. Operations opens `[Governance][Treasury]` thread: “Execute Proposal #12 Funding Transfer.”  
-3. Treasury executes and posts transaction proof.  
-4. Tag changes to `[Documentation]` after completion.
-
-**Treasury vs. Finance:**  
-- **Treasury** = Moving money (fund transfers, payouts, audits).  
-- **Finance** = Understanding money (budgeting, forecasting, reports).  
-> Finance proposes → Treasury executes → Finance reports.
+2. Operations opens `[New Issue][Project-Link]` thread: “Execute Multisig TX for #Baobab.”  
+3. Task moves to `[Ongoing]` while being executed.  
+4. After completion, tag `[Documentation]` and close.
 
 ---
 
@@ -53,21 +49,22 @@ _Sub-tags:_ `[Treasury]` `[Finance]` `[Admin]` `[DevOps]` `[Governance]`
 **Purpose:** Proposals, votes, policy updates, and coordination.
 
 **Tags:**  
-`[Proposal]` `[Vote]` `[Policy]` `[Update]` `[Discussion]` `[Documentation]`
+`[Proposal]` `[Vote]` `[Policy]` `[Update]` `[Discussion]` `[Documentation]` `[Project-Link]`
 
-**Tag Definitions:**  
+**Usage Guide:**  
 - **[Proposal]** — Drafts of new governance ideas or initiatives.  
 - **[Vote]** — Active proposals currently up for voting.  
 - **[Policy]** — Structural or procedural DAO changes.  
 - **[Update]** — Progress reports, results, or governance notices that don’t require new votes.  
 - **[Discussion]** — Open deliberation on governance topics.  
-- **[Documentation]** — Archived final outcomes or records.
+- **[Documentation]** — Archived final outcomes or records.  
+- **[Project-Link]** — Ties a governance proposal to a RaceTrack project.
 
 **Example Workflow:**  
-1. A contributor drafts `[Proposal]` “Launch DAO Mentorship Program.”  
-2. Discussion unfolds; governance team refines it.  
-3. When live on Snapshot, retag `[Vote]`.  
-4. Once passed, post results `[Update]` then archive `[Documentation]`.
+1. A contributor drafts `[Proposal]` “Launch Project Baobab.”  
+2. When approved, retag `[Vote]`.  
+3. Once passed, create a RaceTrack project thread using the template.  
+4. Update proposal thread with `[Update][Project-Link]` linking to #Baobab.
 
 ---
 
@@ -76,22 +73,23 @@ _Sub-tags:_ `[Treasury]` `[Finance]` `[Admin]` `[DevOps]` `[Governance]`
 **Purpose:** Branding, storytelling, campaigns, and events.
 
 **Tags:**  
-`[Content]` `[Campaign]` `[Event]` `[Partner]` `[Design]` `[Archive]` `[Ongoing]`
+`[Content]` `[Campaign]` `[Event]` `[Partner]` `[Design]` `[Archive]` `[Ongoing]` `[Project-Link]`
 
-**Tag Definitions:**  
+**Usage Guide:**  
 - **[Content]** — Drafts for posts, graphics, or videos.  
 - **[Campaign]** — Coordinated marketing pushes.  
 - **[Event]** — Promotions tied to specific gatherings or launches.  
 - **[Partner]** — External collaborations or co-marketing.  
 - **[Design]** — Visuals and brand assets.  
 - **[Archive]** — Completed or closed campaigns.  
-- **[Ongoing]** — Active initiatives still in progress.
+- **[Ongoing]** — Active initiatives still in progress.  
+- **[Project-Link]** — Connects a campaign or asset to a RaceTrack project.
 
 **Example Workflow:**  
-1. Start `[Campaign]` “From the BaDlands Launch.”  
+1. Start `[Campaign][Project-Link]` “Baobab Launch Kit (#Baobab).”  
 2. Share visuals `[Design]`.  
-3. Coordinate social posts `[Content]`.  
-4. After event recap, retag `[Archive]`.
+3. Coordinate rollout.  
+4. Retag `[Archive]` when complete.
 
 ---
 
@@ -100,21 +98,22 @@ _Sub-tags:_ `[Treasury]` `[Finance]` `[Admin]` `[DevOps]` `[Governance]`
 **Purpose:** Smart contracts, infrastructure, and tooling.
 
 **Tags:**  
-`[Build]` `[Test]` `[Bug]` `[Audit]` `[Integration]` `[Ongoing]` `[Documentation]`
+`[Build]` `[Test]` `[Bug]` `[Audit]` `[Integration]` `[Ongoing]` `[Documentation]` `[Project-Link]`
 
-**Tag Definitions:**  
+**Usage Guide:**  
 - **[Build]** — New products, dApps, or feature threads.  
 - **[Test]** — QA testing and validation.  
 - **[Bug]** — Reported errors and resolutions.  
 - **[Audit]** — Reviews or security verifications.  
 - **[Integration]** — Connecting tools, contracts, or APIs.  
+- **[Project-Link]** — Associates development work with a RaceTrack project.  
 - **[Documentation]** — Finalized deployment summaries.
 
 **Example Workflow:**  
-1. Dev opens `[Build]` “Deploy RaceTrack Contract.”  
+1. Dev opens `[Build][Project-Link]` “Deploy Baobab Contract (#Baobab).”  
 2. QA adds `[Test]`.  
 3. Found issue → `[Bug][Priority]`.  
-4. After audit, archive `[Documentation]`.
+4. After audit, close `[Documentation]`.
 
 ---
 
@@ -123,19 +122,20 @@ _Sub-tags:_ `[Treasury]` `[Finance]` `[Admin]` `[DevOps]` `[Governance]`
 **Purpose:** DAO onboarding, mentorship, and learning.
 
 **Tags:**  
-`[Curriculum]` `[Mentor]` `[Trial]` `[Graduate]` `[Resource]` `[Ongoing]`
+`[Curriculum]` `[Mentor]` `[Trial]` `[Graduate]` `[Resource]` `[Ongoing]` `[Project-Link]`
 
-**Tag Definitions:**  
+**Usage Guide:**  
 - **[Curriculum]** — Course outlines or learning paths.  
 - **[Mentor]** — Guidance or mentor-student threads.  
 - **[Trial]** — Exercises, bootcamps, or training.  
 - **[Graduate]** — Completed programs or milestones.  
-- **[Resource]** — Educational references and study materials.
+- **[Resource]** — Educational references and study materials.  
+- **[Project-Link]** — Connects training initiatives to active RaceTrack projects.
 
 **Example Workflow:**  
-1. Post `[Curriculum]` “Web3 Basics.”  
-2. Mentors open `[Trial]` threads.  
-3. Evaluate learners, then post `[Graduate]` summary.
+1. Post `[Curriculum][Project-Link]` “Baobab Builders Bootcamp (#Baobab).”  
+2. Run trials and collect outcomes.  
+3. Post `[Graduate]` results.
 
 ---
 
@@ -144,99 +144,33 @@ _Sub-tags:_ `[Treasury]` `[Finance]` `[Admin]` `[DevOps]` `[Governance]`
 **Purpose:** Partnerships, sponsorships, and ecosystem growth.
 
 **Tags:**  
-`[Partner]` `[Outreach]` `[Sponsorship]` `[Collaboration]` `[Growth]` `[Ongoing]`
+`[Partner]` `[Outreach]` `[Sponsorship]` `[Collaboration]` `[Growth]` `[Ongoing]` `[Project-Link]`
 
-**Tag Definitions:**  
+**Usage Guide:**  
 - **[Partner]** — Confirmed collaborations.  
 - **[Outreach]** — Leads or new contacts.  
 - **[Sponsorship]** — Funding opportunities.  
 - **[Collaboration]** — Multi-DAO or community initiatives.  
-- **[Growth]** — Metrics, analytics, and BD insights.
+- **[Growth]** — Metrics, analytics, and BD insights.  
+- **[Project-Link]** — Connects partnerships to RaceTrack projects.
 
 **Example Workflow:**  
-1. Open `[Outreach]` “Potential Sponsor: MetaMask.”  
-2. Once confirmed, retag `[Partner]`.  
-3. After funding completes, archive `[Documentation]`.
+1. Open `[Outreach][Project-Link]` “ETHDenver Collaboration (#Baobab).”  
+2. Confirm deal → `[Partner]`.  
+3. Archive when closed.
 
 ---
 
-## 🏁 RACETRACK
+## 🏁 RACETRACK (Project Hub)
 **Forum:** `racetrack`  
-**Purpose:** Central hub for tracking all DAO projects.
+**Purpose:** Central hub for tracking all DAO projects. Each thread = one project.
+
+**Posting Rules:**  
+- Only **mods and bots** can post new threads.  
+- Threads are created using the standard **RaceTrack Project Template** below.  
+- Comment section used for status updates (mods/bots only).
 
 **Tags:**  
-`[Map]` `[Pulse]` `[Funding]` `[Marketing]` `[Complete]` `[Archived]` `[Retro]` `[Learning]` `[Ongoing]`
+`[In Progress]` `[On Hold]` `[Complete]` `[Archived]` `[Retro]` `[Funding]` `[Marketing]`
 
-**Tag Definitions:**  
-- **[Map]** — Project goals and strategies.  
-- **[Pulse]** — Weekly updates and progress logs.  
-- **[Funding]** — Linked treasury discussions.  
-- **[Marketing]** — Campaign coordination.  
-- **[Complete]** — Finished runs.  
-- **[Archived]** — Stored reference projects.  
-- **[Retro]** — Post-mortems or reflections.  
-- **[Learning]** — Documented insights or takeaways.
-
-**Example Workflow:**  
-1. Create `[Map]` “Project Baobab — Run to Mainnet.”  
-2. Add `[Pulse]` updates.  
-3. After completion, close `[Archived][Retro]`.
-
----
-
-## 🧗 PROVING GROUND
-**Forum:** `proving-ground`  
-**Purpose:** Skill challenges, hackathons, and experiential learning.
-
-**Tags:**  
-`[Trial]` `[Challenge]` `[Workshop]` `[Graduate]` `[Learning]`
-
-**Tag Definitions:**  
-- **[Trial]** — Internal skill-building tasks.  
-- **[Challenge]** — Competitive or time-bound activities.  
-- **[Workshop]** — Guided, collaborative sessions.  
-- **[Graduate]** — Recognition for completion.  
-- **[Learning]** — Resources or insights from events.
-
-**Example Workflow:**  
-1. Post `[Challenge]` “30-Day Design Sprint.”  
-2. Participants post progress `[Trial]`.  
-3. Recognize winners `[Graduate]`.
-
----
-
-## 🔐 ADMIN
-**Forum:** `admin` *(Private: Core Team Only)*  
-**Purpose:** Internal coordination, automation, and systems.
-
-**Tags:**  
-`[System]` `[Permissions]` `[Automation]` `[Alert]` `[Template]` `[Update]` `[Documentation]`
-
-**Tag Definitions:**  
-- **[System]** — Technical infrastructure changes.  
-- **[Permissions]** — Role or access requests.  
-- **[Automation]** — Bots and webhook tracking.  
-- **[Alert]** — Critical issues or security events.  
-- **[Template]** — SOPs and reusable docs.  
-- **[Update]** — Internal progress or maintenance notices.  
-- **[Documentation]** — Finalized logs or summaries.
-
-**Example Workflow:**  
-1. Bot fails to post updates.  
-2. Thread `[Automation][Alert]` created.  
-3. Dev adds fix; close `[Documentation]`.
-
----
-
-## ✅ Benefits
-- Every tag is now defined and tied to actionable use.  
-- `[Update]` clarified for both Governance and Admin functions.  
-- Complete lifecycle coverage from ideation → execution → archive.
-
----
-
-## 📌 Next Steps
-1. Apply tag sets and workflows in each forum.  
-2. Add pinned guides explaining forum-specific tags.  
-3. Archive outdated channels.  
-4. Announce transition in `#announcements` with visual layout.
+**RaceTrack Project Template:**
