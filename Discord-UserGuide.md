@@ -1,4 +1,4 @@
-# 🧭 BuildaDAO | The Caravan — Discord Server User Guide
+# 🧭 BuildaDAO | The Caravan — Discord Server User Guide (v15)
 _Tagline: “From the BaDlands.”_
 
 Welcome to **BuildaDAO | The Caravan**, a community of builders, artists, and innovators traveling the path toward decentralized creation.  
@@ -11,7 +11,7 @@ This guide explains how to use the server, collaborate on projects, and navigate
 **The Caravan** is where BuildaDAO organizes and executes decentralized projects.  
 The server is designed like a living workspace:  
 - **RaceTrack** is the main hub where all projects are tracked.  
-- **Working Forums** (like Governance, Operations, Marketing, etc.) are the spokes that make the work happen.  
+- **Working Forums** (like Governance, Operations, Marketing, BizDev, Technologia) are the spokes that make the work happen.  
 - Each project links back to its RaceTrack thread through the `[Project-Link]` tag.
 
 When in doubt:
@@ -38,9 +38,8 @@ Spaces where DAO contributors coordinate by domain:
 - **Governance** — Proposals, voting, and policy discussions.  
 - **Operations** — Treasury, logistics, and backend execution.  
 - **Marketing** — Branding, campaigns, and storytelling.  
-- **Development** — Smart contracts, infrastructure, and tech builds.  
-- **Education** — Learning paths, mentorship, and workshops.  
 - **BizDev** — Partnerships, sponsorships, and ecosystem growth.  
+- **Technologia** — Smart contracts, infrastructure, and tooling.  
 - **Admin** — Internal systems (restricted to staff).
 
 Each forum is **thread-based**, with tags organizing content by purpose or project.
@@ -69,7 +68,7 @@ Tags keep threads organized and searchable. Use them consistently.
 `[Documentation]` — Marks a completed or archived record.
 
 ### **Working Group-Specific Tags**
-Each forum has extra tags related to its function (e.g., `[Proposal]`, `[Build]`, `[Event]`, `[Curriculum]`).
+Each forum has extra tags related to its function (e.g., `[Proposal]`, `[Campaign]`, `[Treasury]`, `[Build]`).
 
 ### **When to Use Each**
 | Type | Use Case | Example |
@@ -95,8 +94,9 @@ Each **project** has:
 1. Governance approves a `[Proposal]` → creates RaceTrack thread: `Project Baobab`.  
 2. Operations posts `[Treasury][Task][Project-Link] Execute Multisig Payout for #Baobab`.  
 3. Marketing posts `[Campaign][Task][Project-Link] Baobab Launch Campaign`.  
-4. Development posts `[Build][Task][Project-Link] Deploy Contract`.  
-5. All threads sync back to the RaceTrack index.
+4. Technologia posts `[Build][Task][Project-Link] Deploy Contract`.  
+5. BizDev posts `[Partner][Task][Project-Link] ETHDenver Sponsorship`.  
+6. All threads sync back to the RaceTrack index.
 
 When the project completes:
 - RaceTrack thread gets tagged `[Complete]`.  
@@ -161,8 +161,8 @@ BuildaDAO’s ranks represent contribution and responsibility:
 
 ### 🆘 Need Help?
 - Open a `[Discussion]` post in Operations or tag `@Elder Hybrid`.  
-- For tech issues, post in `#operations` with `[DevOps]`.  
-- For onboarding help, go to `#welcome` or Education forum.
+- For tech issues, post in Technologia forum with `[Build]` or `[Bug]`.  
+- For onboarding help, go to `#welcome`.
 
 ---
 
@@ -170,8 +170,8 @@ BuildaDAO’s ranks represent contribution and responsibility:
 
 | Type | Go To | Notes |
 |------|--------|-------|
-| General Help | `#welcome` / Education Forum | Ask about how to participate |
-| Technical / DevOps | Operations Forum | For smart contract or tooling questions |
+| General Help | `#welcome` | Ask about how to participate |
+| Technical / DevOps | Technologia Forum | For contracts, bots, or tooling |
 | Proposals / Governance | Governance Forum | For new project or DAO ideas |
 | Partnerships | BizDev Forum | For sponsorship or collaboration inquiries |
 | Media / Marketing | Marketing Forum | For campaign coordination |
@@ -209,5 +209,3 @@ Consensus and transparency are our core values.
 
 Welcome to **The Caravan.** 🏜️  
 Build boldly, travel together.
-
----
