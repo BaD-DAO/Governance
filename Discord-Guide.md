@@ -29,10 +29,22 @@ These channels remain text-based to keep community flow natural and accessible.
 `[New Issue]` `[Ongoing]` `[On Hold]` `[Priority]` `[Documentation]` `[Treasury]` `[Finance]` `[Admin]` `[DevOps]`
 
 ### **Usage Guide**
-- Use `[New Issue]` for new tasks (funding requests, internal improvements, or infrastructure tickets).  
-- Tag `[Treasury]` or `[Finance]` for any payout, budget, or audit item.  
+- Use `[New Issue]` for new tasks (funding requests, internal improvements, or infrastructure tickets).    
 - `[Admin]` for logistics like access management or process documentation.  
-- `[DevOps]` for Discord, Notion, or bot automation tasks.  
+- `[DevOps]` for Discord, Notion, or bot automation tasks.
+
+### 🔍 Treasury vs. Finance
+**`[Treasury]`** → Handles the *movement* of DAO funds.  
+Use this tag for multisig actions, payouts, or on-chain transactions.
+**`[Finance]`** → Handles the *management and analysis* of DAO funds.  
+Use this tag for budgeting, reporting, and planning.
+
+**In short:**  
+- Treasury = *Executing and recording payments*  
+- Finance = *Tracking and analyzing the money flow*
+
+Use both together:  
+Finance proposes → Treasury executes → Finance reports.
 
 ### **Example Workflow**
 1. A working group requests funding.  
