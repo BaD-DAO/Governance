@@ -21,30 +21,26 @@ These channels remain text-based to keep community flow natural and accessible.
 
 ---
 
-## ⚙️ OPERATIONS
+### ⚙️ OPERATIONS
 **Forum:** `operations`  
-**Purpose:** Treasury, administration, and internal coordination hub.
+**Purpose:** Treasury management, admin coordination, and DAO logistics.
 
-### **Tags**
-`[New Issue]` `[Ongoing]` `[On Hold]` `[Priority]` `[Documentation]` `[Treasury]` `[Finance]` `[Admin]` `[DevOps]`
+**Tags:**  
+`[New Issue]` `[Discussion]` `[Ongoing]` `[On Hold]` `[Priority]` `[Documentation]`  
+_Sub-tags:_ `[Treasury]` `[Finance]` `[Admin]` `[DevOps]` `[Governance]`
 
-### **Usage Guide**
-- Use `[New Issue]` for new tasks (funding requests, internal improvements, or infrastructure tickets).    
-- `[Admin]` for logistics like access management or process documentation.  
-- `[DevOps]` for Discord, Notion, or bot automation tasks.
+**Usage Guide:**  
+- Use `[Treasury]` for multisig transactions, payouts, and fund movements.  
+- Use `[Finance]` for budgeting, reporting, and performance tracking.  
+- Use `[Admin]` for permissions, workflows, or internal coordination.  
+- Use `[DevOps]` for automations, bots, and technical operations.  
+- Use `[Governance]` when executing DAO-approved proposals or implementing policy decisions.
 
-### 🔍 Treasury vs. Finance
-**`[Treasury]`** → Handles the *movement* of DAO funds.  
-Use this tag for multisig actions, payouts, or on-chain transactions.
-**`[Finance]`** → Handles the *management and analysis* of DAO funds.  
-Use this tag for budgeting, reporting, and planning.
-
-**In short:**  
-- Treasury = *Executing and recording payments*  
-- Finance = *Tracking and analyzing the money flow*
-
-Use both together:  
-Finance proposes → Treasury executes → Finance reports.
+**Example Workflow:**  
+1. A proposal passes in `governance`.  
+2. Operations opens `[Governance][Treasury]` thread: “Execute Proposal #12 Funding Transfer.”  
+3. Treasury executes the multisig transaction and posts verification link.  
+4. Thread is marked `[Documentation]` once complete.
 
 ### **Example Workflow**
 1. A working group requests funding.  
