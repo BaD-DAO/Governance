@@ -1,27 +1,26 @@
-# BuildaDAO | The Caravan — Discord Operations Manual (v10)
+# BuildaDAO | The Caravan — Discord Operations Manual (v12)
 _Tagline: “From the BaDlands.”_  
-_Objective: Provide a complete working structure and operational guide for all BuildaDAO Discord forums, including example workflows and best practices._
+_Objective: Provide a complete operational guide for BuildaDAO’s Discord forums, including detailed tag definitions, usage guides, and workflows for every working group._
 
 ---
 
 ## 🌍 CORE CHANNELS
-**Purpose:** Public-facing community entry point, onboarding, and information hub.  
-These channels remain text-based to keep community flow natural and accessible.
+**Purpose:** Public-facing community entry point, onboarding, and information hub.
 
 ### Channels:
-- **#welcome** — pinned onboarding guide, server rules, DAO intro, and joining instructions.  
-- **#announcements** — official DAO news, proposals passed, events, and key updates.  
-- **#links** — permanent reference to BuildaDAO website, socials, GitHub, Notion, and token links.  
-- **#general** — casual community chat and discussion.  
-- **#share-your-work** — open space for members to showcase art, builds, events, or side projects.
+- **#welcome** — onboarding guide, DAO intro, and server overview.  
+- **#announcements** — official DAO news, passed proposals, events, and key updates.  
+- **#links** — BuildaDAO website, socials, GitHub, and Notion references.  
+- **#general** — open community discussion.  
+- **#share-your-work** — space to showcase community projects, art, or initiatives.
 
-🗣️ **Voice:**  
-- **public-voice** — for open sessions, office hours, or casual community calls.  
-- **team-voice** *(restricted)* — for working group syncs or governance meetings.
+🗣️ **Voice Channels:**  
+- **public-voice** — for open sessions or community calls.  
+- **team-voice** *(restricted)* — for governance or WG syncs.
 
 ---
 
-### ⚙️ OPERATIONS
+## ⚙️ OPERATIONS
 **Forum:** `operations`  
 **Purpose:** Treasury management, admin coordination, and DAO logistics.
 
@@ -29,222 +28,215 @@ These channels remain text-based to keep community flow natural and accessible.
 `[New Issue]` `[Discussion]` `[Ongoing]` `[On Hold]` `[Priority]` `[Documentation]`  
 _Sub-tags:_ `[Treasury]` `[Finance]` `[Admin]` `[DevOps]` `[Governance]`
 
-**Usage Guide:**  
-- Use `[Treasury]` for multisig transactions, payouts, and fund movements.  
-- Use `[Finance]` for budgeting, reporting, and performance tracking.  
-- Use `[Admin]` for permissions, workflows, or internal coordination.  
-- Use `[DevOps]` for automations, bots, and technical operations.  
-- Use `[Governance]` when executing DAO-approved proposals or implementing policy decisions.
+**Tag Definitions:**  
+- **[Treasury]** — Executing and recording fund movements.  
+- **[Finance]** — Budgeting, reporting, and forecasting.  
+- **[Admin]** — Access, permissions, or workflow coordination.  
+- **[DevOps]** — Infrastructure, bots, and automations.  
+- **[Governance]** — Implementing approved proposals or DAO decisions.
 
 **Example Workflow:**  
-1. A proposal passes in `governance`.  
+1. A proposal passes in Governance.  
 2. Operations opens `[Governance][Treasury]` thread: “Execute Proposal #12 Funding Transfer.”  
-3. Treasury executes the multisig transaction and posts verification link.  
-4. Thread is marked `[Documentation]` once complete.
+3. Treasury executes and posts transaction proof.  
+4. Tag changes to `[Documentation]` after completion.
 
-### **Example Workflow**
-1. A working group requests funding.  
-2. A contributor opens a new thread tagged `[New Issue][Treasury]` with details.  
-3. Core members review, add budgets, and mark `[Ongoing]`.  
-4. Once payout is processed, tag `[Documentation]` and archive the thread.
+**Treasury vs. Finance:**  
+- **Treasury** = Moving money (fund transfers, payouts, audits).  
+- **Finance** = Understanding money (budgeting, forecasting, reports).  
+> Finance proposes → Treasury executes → Finance reports.
 
 ---
 
 ## 🗳️ GOVERNANCE
 **Forum:** `governance`  
-**Purpose:** DAO proposals, votes, policy updates, and WG coordination.
+**Purpose:** Proposals, votes, policy updates, and coordination.
 
-### **Tags**
+**Tags:**  
 `[Proposal]` `[Vote]` `[Policy]` `[Update]` `[Discussion]` `[Documentation]`
 
-### **Usage Guide**
-- Post new ideas as `[Proposal]` threads with clear objectives and costs.  
-- Once a proposal goes to Snapshot or on-chain voting, retag `[Vote]`.  
-- Approved or declined proposals should be updated with results and retagged `[Documentation]`.  
-- Use `[Policy]` for DAO rules, bylaws, and procedural updates.
+**Tag Definitions:**  
+- **[Proposal]** — Drafts of new governance ideas or initiatives.  
+- **[Vote]** — Active proposals currently up for voting.  
+- **[Policy]** — Structural or procedural DAO changes.  
+- **[Update]** — Progress reports, results, or governance notices that don’t require new votes.  
+- **[Discussion]** — Open deliberation on governance topics.  
+- **[Documentation]** — Archived final outcomes or records.
 
-### **Example Workflow**
-1. A member drafts a new proposal: “Fund a community NFT drop.”  
-2. Thread starts as `[Proposal][Discussion]` with outline and images.  
-3. After governance review, voting link is added and retagged `[Vote]`.  
-4. Once results are in, post summary and change to `[Documentation]`.
+**Example Workflow:**  
+1. A contributor drafts `[Proposal]` “Launch DAO Mentorship Program.”  
+2. Discussion unfolds; governance team refines it.  
+3. When live on Snapshot, retag `[Vote]`.  
+4. Once passed, post results `[Update]` then archive `[Documentation]`.
 
 ---
 
 ## 📣 MARKETING
 **Forum:** `marketing`  
-**Purpose:** Brand management, storytelling, campaigns, and event coordination.
+**Purpose:** Branding, storytelling, campaigns, and events.
 
-### **Tags**
+**Tags:**  
 `[Content]` `[Campaign]` `[Event]` `[Partner]` `[Design]` `[Archive]` `[Ongoing]`
 
-### **Usage Guide**
-- Create a new `[Campaign]` thread for each initiative (e.g. #FromTheBaDlands launch).  
-- Use `[Content]` for social posts, graphic drafts, or reels.  
-- `[Partner]` for collaborations, cross-promotions, or joint announcements.  
-- Retag `[Archive]` once a campaign concludes.  
+**Tag Definitions:**  
+- **[Content]** — Drafts for posts, graphics, or videos.  
+- **[Campaign]** — Coordinated marketing pushes.  
+- **[Event]** — Promotions tied to specific gatherings or launches.  
+- **[Partner]** — External collaborations or co-marketing.  
+- **[Design]** — Visuals and brand assets.  
+- **[Archive]** — Completed or closed campaigns.  
+- **[Ongoing]** — Active initiatives still in progress.
 
-### **Example Workflow**
-1. Marketing lead starts a `[Campaign]` thread: “Community Call Promo.”  
-2. Contributors add poster drafts tagged `[Design]`.  
-3. After final review, the event is cross-posted, tagged `[Event]`.  
-4. When analytics and recap are added, thread closes as `[Archive]`.
+**Example Workflow:**  
+1. Start `[Campaign]` “From the BaDlands Launch.”  
+2. Share visuals `[Design]`.  
+3. Coordinate social posts `[Content]`.  
+4. After event recap, retag `[Archive]`.
 
 ---
 
 ## 💻 DEVELOPMENT
 **Forum:** `development`  
-**Purpose:** Product builds, smart contracts, testing, and integrations.
+**Purpose:** Smart contracts, infrastructure, and tooling.
 
-### **Tags**
+**Tags:**  
 `[Build]` `[Test]` `[Bug]` `[Audit]` `[Integration]` `[Ongoing]` `[Documentation]`
 
-### **Usage Guide**
-- Each new feature, contract, or tool starts as a `[Build]` thread.  
-- When testing begins, tag `[Test]` and report results as comments.  
-- Critical bugs are labeled `[Bug][Priority]`.  
-- Once verified and deployed, retag `[Documentation]`.  
+**Tag Definitions:**  
+- **[Build]** — New products, dApps, or feature threads.  
+- **[Test]** — QA testing and validation.  
+- **[Bug]** — Reported errors and resolutions.  
+- **[Audit]** — Reviews or security verifications.  
+- **[Integration]** — Connecting tools, contracts, or APIs.  
+- **[Documentation]** — Finalized deployment summaries.
 
-### **Example Workflow**
-1. Dev lead opens `[Build]` thread: “RaceTrack Contract Refactor.”  
-2. Contributors comment progress and testing results.  
-3. QA finds an issue, thread retagged `[Bug][Priority]`.  
-4. After fix and redeploy, summary added, tag switched to `[Documentation]`.
+**Example Workflow:**  
+1. Dev opens `[Build]` “Deploy RaceTrack Contract.”  
+2. QA adds `[Test]`.  
+3. Found issue → `[Bug][Priority]`.  
+4. After audit, archive `[Documentation]`.
 
 ---
 
 ## 🎓 EDUCATION
 **Forum:** `education`  
-**Purpose:** DAO onboarding, mentorship, and learning programs.
+**Purpose:** DAO onboarding, mentorship, and learning.
 
-### **Tags**
+**Tags:**  
 `[Curriculum]` `[Mentor]` `[Trial]` `[Graduate]` `[Resource]` `[Ongoing]`
 
-### **Usage Guide**
-- Use `[Curriculum]` for structured learning materials or course outlines.  
-- `[Mentor]` threads pair guides with learners for specific programs.  
-- `[Trial]` for weekly assignments or bootcamp challenges.  
-- When a participant completes training, create `[Graduate]` recap thread.  
+**Tag Definitions:**  
+- **[Curriculum]** — Course outlines or learning paths.  
+- **[Mentor]** — Guidance or mentor-student threads.  
+- **[Trial]** — Exercises, bootcamps, or training.  
+- **[Graduate]** — Completed programs or milestones.  
+- **[Resource]** — Educational references and study materials.
 
-### **Example Workflow**
-1. Education WG posts `[Curriculum]`: “Web3 Wallet Basics.”  
-2. Mentors open `[Trial]` threads for assigned students.  
-3. Students share work and feedback weekly.  
-4. Upon completion, WG posts `[Graduate]` thread listing names and links.
+**Example Workflow:**  
+1. Post `[Curriculum]` “Web3 Basics.”  
+2. Mentors open `[Trial]` threads.  
+3. Evaluate learners, then post `[Graduate]` summary.
 
 ---
 
 ## 💼 BIZDEV
 **Forum:** `bizdev`  
-**Purpose:** Partnerships, sponsorships, and external growth.
+**Purpose:** Partnerships, sponsorships, and ecosystem growth.
 
-### **Tags**
+**Tags:**  
 `[Partner]` `[Outreach]` `[Sponsorship]` `[Collaboration]` `[Growth]` `[Ongoing]`
 
-### **Usage Guide**
-- Use `[Outreach]` for initial contact or lead tracking.  
-- Confirmed collaborations move to `[Partner]`.  
-- `[Sponsorship]` for funding opportunities or grant proposals.  
-- Retag `[Documentation]` after completion or deal closure.  
+**Tag Definitions:**  
+- **[Partner]** — Confirmed collaborations.  
+- **[Outreach]** — Leads or new contacts.  
+- **[Sponsorship]** — Funding opportunities.  
+- **[Collaboration]** — Multi-DAO or community initiatives.  
+- **[Growth]** — Metrics, analytics, and BD insights.
 
-### **Example Workflow**
-1. A member starts `[Outreach]` thread: “Pitch to NFT.NYC Sponsors.”  
-2. As meetings happen, comments are added.  
-3. Once confirmed, retag `[Partner]` and add MOU or deliverables.  
-4. After completion, retag `[Documentation]` and summarize outcomes.
+**Example Workflow:**  
+1. Open `[Outreach]` “Potential Sponsor: MetaMask.”  
+2. Once confirmed, retag `[Partner]`.  
+3. After funding completes, archive `[Documentation]`.
 
 ---
 
 ## 🏁 RACETRACK
 **Forum:** `racetrack`  
-**Purpose:** Manage and track all active or archived DAO projects.
+**Purpose:** Central hub for tracking all DAO projects.
 
-### **Tags**
+**Tags:**  
 `[Map]` `[Pulse]` `[Funding]` `[Marketing]` `[Complete]` `[Archived]` `[Retro]` `[Learning]` `[Ongoing]`
 
-### **Usage Guide**
-- Each major project gets one thread named after its initiative.  
-- `[Map]` indicates strategy and milestones.  
-- Weekly updates go under `[Pulse]`.  
-- `[Funding]` and `[Marketing]` sub-tags link related WG involvement.  
-- When finished, tag `[Archived]` or `[Retro]` for reflections.  
+**Tag Definitions:**  
+- **[Map]** — Project goals and strategies.  
+- **[Pulse]** — Weekly updates and progress logs.  
+- **[Funding]** — Linked treasury discussions.  
+- **[Marketing]** — Campaign coordination.  
+- **[Complete]** — Finished runs.  
+- **[Archived]** — Stored reference projects.  
+- **[Retro]** — Post-mortems or reflections.  
+- **[Learning]** — Documented insights or takeaways.
 
-### **Example Workflow**
-1. Create `[Map]` thread: “Project Baobab — Run to Mainnet.”  
-2. Weekly updates use `[Pulse]`.  
-3. When budget is approved, link `[Funding]` discussion from Operations.  
-4. After mainnet deployment, retag `[Complete]` then `[Archived]`.
+**Example Workflow:**  
+1. Create `[Map]` “Project Baobab — Run to Mainnet.”  
+2. Add `[Pulse]` updates.  
+3. After completion, close `[Archived][Retro]`.
 
 ---
 
 ## 🧗 PROVING GROUND
 **Forum:** `proving-ground`  
-**Purpose:** Applied learning, hackathons, and creative challenges.
+**Purpose:** Skill challenges, hackathons, and experiential learning.
 
-### **Tags**
+**Tags:**  
 `[Trial]` `[Challenge]` `[Workshop]` `[Graduate]` `[Learning]`
 
-### **Usage Guide**
-- Use `[Challenge]` for open competitions or hackathons.  
-- `[Workshop]` for structured educational sessions or tutorials.  
-- `[Trial]` for internal skill tests or contributor assessments.  
-- Post-recognition threads as `[Graduate]` or `[Learning]` reflections.  
+**Tag Definitions:**  
+- **[Trial]** — Internal skill-building tasks.  
+- **[Challenge]** — Competitive or time-bound activities.  
+- **[Workshop]** — Guided, collaborative sessions.  
+- **[Graduate]** — Recognition for completion.  
+- **[Learning]** — Resources or insights from events.
 
-### **Example Workflow**
-1. Moderator opens `[Challenge]`: “30-Day Design Sprint.”  
-2. Members post submissions in replies.  
-3. Weekly progress tagged `[Trial]`.  
-4. Winners listed in `[Graduate]` summary thread.
+**Example Workflow:**  
+1. Post `[Challenge]` “30-Day Design Sprint.”  
+2. Participants post progress `[Trial]`.  
+3. Recognize winners `[Graduate]`.
 
 ---
 
 ## 🔐 ADMIN
 **Forum:** `admin` *(Private: Core Team Only)*  
-**Purpose:** Internal coordination, permissions, and system oversight.
+**Purpose:** Internal coordination, automation, and systems.
 
-### **Tags**
+**Tags:**  
 `[System]` `[Permissions]` `[Automation]` `[Alert]` `[Template]` `[Update]` `[Documentation]`
 
-### **Usage Guide**
-- `[System]` for software or infrastructure notices.  
-- `[Permissions]` to record role changes or access requests.  
-- `[Automation]` to track bot setups, errors, and webhook updates.  
-- `[Alert]` for urgent incidents (security, spam, failed integrations).  
-- `[Template]` stores SOPs and reusable documents.  
+**Tag Definitions:**  
+- **[System]** — Technical infrastructure changes.  
+- **[Permissions]** — Role or access requests.  
+- **[Automation]** — Bots and webhook tracking.  
+- **[Alert]** — Critical issues or security events.  
+- **[Template]** — SOPs and reusable docs.  
+- **[Update]** — Internal progress or maintenance notices.  
+- **[Documentation]** — Finalized logs or summaries.
 
-### **Example Workflow**
-1. A bot fails to post treasury updates.  
-2. Thread created `[Automation][Alert]`: “Valora API Error.”  
-3. Developer comments log details and commits fix.  
-4. Mark `[Documentation]` when resolved and note update date.
-
----
-
-## 🏷️ TAG SUMMARY
-| Forum | Sub-Tags | Example Use |
-|--------|-----------|-------------|
-| Operations | Treasury / Finance / Admin / DevOps | Payouts, reports, infrastructure |
-| Governance | Proposal / Vote / Policy / Update | DAO decisions |
-| Marketing | Content / Campaign / Partner / Event / Archive | Media & PR |
-| Development | Build / Test / Bug / Audit / Integration | Smart contracts & tools |
-| Education | Curriculum / Mentor / Trial / Graduate | Training & onboarding |
-| BizDev | Partner / Outreach / Sponsorship / Growth | Partnerships & fundraising |
-| RaceTrack | Map / Pulse / Funding / Archived / Retro | Project tracking |
-| Proving Ground | Trial / Challenge / Workshop / Graduate | Applied learning |
-| Admin | System / Permissions / Automation / Alert / Template | Internal coordination |
+**Example Workflow:**  
+1. Bot fails to post updates.  
+2. Thread `[Automation][Alert]` created.  
+3. Dev adds fix; close `[Documentation]`.
 
 ---
 
 ## ✅ Benefits
-- Every working group has an example workflow for clarity.  
-- Unified tag system ensures cross-forum consistency.  
-- Replacing static channels with forums improves discoverability.  
-- Ready for GitHub/Notion integration and DAO reporting automations.
+- Every tag is now defined and tied to actionable use.  
+- `[Update]` clarified for both Governance and Admin functions.  
+- Complete lifecycle coverage from ideation → execution → archive.
 
 ---
 
 ## 📌 Next Steps
-1. Implement new forum naming and tag templates.  
-2. Post pinned usage examples in each forum header.  
-3. Archive unused channels and migrate content into threads.  
-4. Roll out with visual map in `#announcements` and internal orientation.
+1. Apply tag sets and workflows in each forum.  
+2. Add pinned guides explaining forum-specific tags.  
+3. Archive outdated channels.  
+4. Announce transition in `#announcements` with visual layout.
