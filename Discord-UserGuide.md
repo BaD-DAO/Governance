@@ -1,4 +1,4 @@
-# 🧭 BuildaDAO | The Caravan — Discord Server User Guide (v15)
+# 🧭 BuildaDAO | The Caravan — Discord Server User Guide (v16)
 _Tagline: “From the BaDlands.”_
 
 Welcome to **BuildaDAO | The Caravan**, a community of builders, artists, and innovators traveling the path toward decentralized creation.  
@@ -191,7 +191,35 @@ BuildaDAO’s ranks represent contribution and responsibility:
 
 ---
 
-## ⚡ 10. Core Philosophy
+## ⚙️ 10. Forum Tag Cheat Sheet
+
+### 🗳 Governance
+`[Proposal]` `[Vote]` `[Policy]` `[Update]` `[Discussion]` `[Priority]` `[Task]` `[Documentation]` `[Project-Link]`
+
+### ⚙️ Operations
+`[Treasury]` `[Finance]` `[Admin]` `[DevOps]` `[Governance]` `[Discussion]` `[Priority]` `[Task]` `[Documentation]` `[Project-Link]`
+
+### 📣 Marketing
+`[Content]` `[Campaign]` `[Event]` `[Partner]` `[Design]` `[Archive]` `[Discussion]` `[Priority]` `[Task]` `[Documentation]` `[Project-Link]`
+
+### 💼 BizDev
+`[Partner]` `[Outreach]` `[Sponsorship]` `[Collaboration]` `[Growth]` `[Discussion]` `[Priority]` `[Task]` `[Documentation]` `[Project-Link]`
+
+### 🧠 Technologia
+`[Build]` `[Test]` `[Bug]` `[Audit]` `[Integration]` `[Discussion]` `[Priority]` `[Task]` `[Documentation]` `[Project-Link]`
+
+### 🔐 Admin
+`[System]` `[Permissions]` `[Automation]` `[Alert]` `[Template]` `[Update]` `[Discussion]` `[Priority]` `[Task]` `[Documentation]` `[Project-Link]`
+
+### 🏁 RaceTrack
+`[In Progress]` `[On Hold]` `[Complete]` `[Archived]` `[Retro]` `[Funding]` `[Marketing]`
+
+### 🧗 Proving Ground
+`[Trial]` `[Challenge]` `[Workshop]` `[Graduate]` `[Learning]` `[Project-Link]`
+
+---
+
+## ⚡ 11. Core Philosophy
 
 **Autonomy + Alignment.**  
 Every member acts independently within the DAO’s consensus.  
